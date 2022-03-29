@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1648563414720" clover="3.2.0">
+  <project timestamp="1648563414720" name="All files">
+    <metrics statements="32" coveredstatements="28" conditionals="10" coveredconditionals="8" methods="12" coveredmethods="11" elements="54" coveredelements="47" complexity="0" loc="32" ncloc="32" packages="1" files="2" classes="2"/>
+    <file name="MathBasic.js" path="D:\learning\dicoding\back-end-developer-expert\integration-testing\project\MathBasic.js">
+      <metrics statements="16" coveredstatements="12" conditionals="6" coveredconditionals="4" methods="5" coveredmethods="4"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="7" type="cond" truecount="1" falsecount="1"/>
+      <line num="4" count="0" type="stmt"/>
+      <line num="7" count="7" type="stmt"/>
+      <line num="9" count="7" type="cond" truecount="3" falsecount="1"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="12" count="7" type="stmt"/>
+      <line num="15" count="3" type="stmt"/>
+      <line num="16" count="3" type="stmt"/>
+      <line num="19" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="23" count="3" type="stmt"/>
+      <line num="24" count="3" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+    </file>
+    <file name="figureCalculator.js" path="D:\learning\dicoding\back-end-developer-expert\integration-testing\project\figureCalculator.js">
+      <metrics statements="16" coveredstatements="16" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
+      <line num="3" count="13" type="stmt"/>
+      <line num="7" count="20" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="12" type="stmt"/>
+      <line num="11" count="8" type="stmt"/>
+      <line num="12" count="14" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="3" type="stmt"/>
+      <line num="16" count="5" type="stmt"/>
+      <line num="20" count="7" type="stmt"/>
+      <line num="23" count="1" type="stmt"/>
+      <line num="26" count="11" type="stmt"/>
+      <line num="29" count="2" type="stmt"/>
+      <line num="32" count="1" type="stmt"/>
+      <line num="35" count="1" type="stmt"/>
+      <line num="39" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
+      <line num="46" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
