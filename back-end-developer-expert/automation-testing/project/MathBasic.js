@@ -1,26 +1,55 @@
 const MathBasic = {
-    add: (...args) => {
-        if (args.length !== 2) {
-            throw new Error('Fungsi add hanya menerima dua parameter');
-        }
+  add: (...args) => {
+    if (args.length !== 2) {
+      throw new Error("Fungsi add hanya menerima dua parameter");
+    }
 
-        const [a, b] = args;
+    const [a, b] = args;
 
-        if (typeof a !== 'number' || typeof b !== 'number') {
-            throw new Error('fungsi hanya menerima parameter number');
-        }
+    if (typeof a !== "number" || typeof b !== "number") {
+      throw new Error("fungsi hanya menerima parameter number");
+    }
 
-        return a + b;
-    },
-    subtract: () => {
-   
-    },
-    multiply: () => {
-   
-    },
-    divide: () => {
-   
-    },
-  };
+    return a + b;
+  },
+  subtract: (...args) => {
+    if (args.length !== 2) {
+      throw new Error("Fungsi subtract hanya menerima dua parameter");
+    }
+    const [a, b] = args;
 
-  module.exports = MathBasic;
+    if (typeof a !== "number" || typeof b !== "number") {
+      throw new Error("fungsi subtrac hanya menerima parameter number");
+    }
+
+    return a - b;
+  },
+  multiply: (...args) => {
+    if (args.length !== 2) {
+      throw new Error("Fungsi hanya menerima dua parameter");
+    }
+
+    const [a, b] = args;
+
+    if (typeof a !== "number" || typeof b !== "number") {
+      throw new Error("fungsi hanya menerima parameter number");
+    }
+
+    return a * b;
+  },
+  divide: (...args) => {
+    if (args.length !== 2) {
+      throw new Error("fungsi hanya menerima dua parameter");
+    }
+
+    const [a, b] = args;
+
+    if (typeof a !== "number" || typeof b !== "number") {
+      throw new Error("fungsi hanya menerima parameter number");
+    }
+
+    return a / b;
+  },
+};
+
+module.exports = MathBasic;
